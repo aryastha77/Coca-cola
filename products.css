@@ -1,0 +1,57 @@
+
+body{
+    background-color: rgb(230,72,72);
+}
+.div{
+    margin-top: 10px;
+}
+ul {
+    list-style: none;
+    float: right;
+    height: 200px;
+    margin-top: -127px;
+    margin-right: 50px;
+}
+ul li{
+    display: inline-block;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border: 3px solid transparent;
+    padding: 8px;
+    transition: 0.6s ease;
+}
+a:hover{
+    background-color:white ;
+    color: #000;
+}
+
+.lamp{
+    display: flex;
+    width: 60%;
+    margin-top: 10%;}
+.son{
+    width:300px;
+    float: right;
+     padding-left:180px;
+}
+.daughter{
+    width:300px;
+    float: center;
+     padding-left: 180px;
+
+}     
+.cousin{
+    width: 300px;
+    float:left;
+     padding-left: 200px;
+
+}
+img{
+    width: 250px;
+    height:300px;
+    justify-content: space-between;
+    padding: 20px;
+}
