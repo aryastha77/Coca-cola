@@ -1,16 +1,14 @@
 
 body{
-    background-color: rgb(230,72,72);
+    background-color: #e64848;
 }
-.div{
-    margin-top: 10px;
-}
+
 ul {
     list-style: none;
     float: right;
-    height: 200px;
-    margin-top: -127px;
+    height: 100px;
     margin-right: 50px;
+    position: relative;
 }
 ul li{
     display: inline-block;
@@ -27,11 +25,9 @@ a:hover{
     background-color:white ;
     color: #000;
 }
-
 .lamp{
     display: flex;
-    width: 60%;
-    margin-top: 10%;}
+}
 .son{
     width:300px;
     float: right;
@@ -41,17 +37,44 @@ a:hover{
     width:300px;
     float: center;
      padding-left: 180px;
-
 }     
 .cousin{
     width: 300px;
     float:left;
-     padding-left: 200px;
-
+    padding-left: 200px;
 }
 img{
     width: 250px;
     height:300px;
     justify-content: space-between;
     padding: 20px;
+}
+.heading{
+    color:aliceblue;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:40%; 
+    display: flex;  
+}
+button{
+    border: 2px solid rgb(199, 12, 31);
+    padding: 5px;
+    margin-bottom: 5px;
+    color:brown
+}
+@media(min-width:320px) and (max-width:480px){
+    ul {
+        list-style: none;
+        float: right;
+        height: 3px;
+        position: relative;
+    }
+    .heading {
+        color: aliceblue;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 1%;
+        display: flex;
+        font-size: 19px;
+    }
 }

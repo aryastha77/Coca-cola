@@ -73,5 +73,113 @@ a:hover{
     position: absolute;
     top: 60%;  
     font-size: 20px;
-
+}
+@media(min-width:320px) and (max-width:480px){
+    .logo img {
+        float: left;
+        width: 117px;
+        height: auto;
+        margin-left: -20px;
+        border-radius: 100px;
+        padding: 34px;
+    }
+    ul {
+        list-style: none;
+        float: right;
+        height: 18px;
+        margin-top: -10px;
+        margin-right: 38px;
+    }
+    .title {
+        background-color: brown;
+        color: white;
+        padding: 8px;
+        border-radius: 30px;
+        position: absolute;
+        top: 55%;
+        left: 33%;
+        transform: translate(-28%,-50%);
+    }
+    .btn {
+        left: 41%;
+        size: 81px;
+        float: left;
+        transform: translate(-50%,-50%);
+        color: white;
+        position: absolute;
+        top: 75%;
+        font-size: 20px;
+    }
+    .btn1 {
+        left: 39%;
+        size: 60px;
+        float: left;
+        transform: translate(-50%,-50%);
+        color: white;
+        position: absolute;
+        top: 80%;
+        font-size: 20px;
+    }
+}
+@media(min-width:481px) and (max-width:768px){
+    .logo img {
+        float: left;
+        width: 141px;
+        height: auto;
+        margin-left: -15px;
+        border-radius: 100px;
+        padding: 30px;
+    }
+    ul {
+        list-style: none;
+        float: right;
+        margin-top: 6px;
+        margin-right: 34px;
+    }
+    .title {
+        background-color: brown;
+        color: white;
+        padding: 7px;
+        border-radius: 24px;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .btn {
+        left: 46%;
+        size: 60px;
+        float: left;
+        transform: translate(-50%,-50%);
+        color: white;
+        position: absolute;
+        top: 72%;
+        font-size: 20px;
+    }
+    .btn1 {
+        left: 44%;
+        size: 60px;
+        float: left;
+        transform: translate(-50%,-50%);
+        color: white;
+        position: absolute;
+        top: 77%;
+        font-size: 20px;
+    }
+}
+@media(min-width:769px) and (max-width:1024px){
+    .logo img {
+        float: left;
+        width: 158px;
+        height: auto;
+        margin-left: -15px;
+        border-radius: 100px;
+        padding: 30px;
+    }
+    ul {
+        list-style: none;
+        float: right;
+        margin-top: 66px;
+        margin-right: 42px;
+    }
 }
